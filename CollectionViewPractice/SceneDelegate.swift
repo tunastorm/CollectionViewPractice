@@ -20,7 +20,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window = UIWindow(windowScene: scene)
         
-        let vc = ConfigViewController(view: ConfigView(), viewModel: ConfigViewModel())
+//        let vc = ConfigViewController(view: ConfigView(), viewModel: ConfigViewModel())
+        let vc = ChattingListViewController(view: ChattingListView(), viewModel: ChattingListViewModel())
         let navigationController = UINavigationController(rootViewController: vc)
         window?.rootViewController = navigationController// sb entrypoint
         window?.makeKeyAndVisible() // show the rootViewController to display

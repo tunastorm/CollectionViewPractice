@@ -19,6 +19,12 @@
 		BCF5F60B2C494249002D9EA0 /* ConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5F60A2C494249002D9EA0 /* ConfigView.swift */; };
 		BCF5F60E2C4942D1002D9EA0 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = BCF5F60D2C4942D1002D9EA0 /* Then */; };
 		BCF5F6112C4942DB002D9EA0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BCF5F6102C4942DB002D9EA0 /* SnapKit */; };
+		BCF5F61D2C4A4D80002D9EA0 /* ConfigModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5F61C2C4A4D80002D9EA0 /* ConfigModel.swift */; };
+		BCF5F6352C4A53D5002D9EA0 /* ChattingListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5F62C2C4A53D5002D9EA0 /* ChattingListModel.swift */; };
+		BCF5F6362C4A53D5002D9EA0 /* ChattingListSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5F62D2C4A53D5002D9EA0 /* ChattingListSection.swift */; };
+		BCF5F6372C4A53D5002D9EA0 /* ChattingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5F62F2C4A53D5002D9EA0 /* ChattingListViewController.swift */; };
+		BCF5F6382C4A53D5002D9EA0 /* ChattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5F6302C4A53D5002D9EA0 /* ChattingView.swift */; };
+		BCF5F6392C4A53D5002D9EA0 /* ChattingListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5F6322C4A53D5002D9EA0 /* ChattingListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +40,12 @@
 		BCF5F6062C493D90002D9EA0 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		BCF5F6082C493F06002D9EA0 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		BCF5F60A2C494249002D9EA0 /* ConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigView.swift; sourceTree = "<group>"; };
+		BCF5F61C2C4A4D80002D9EA0 /* ConfigModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigModel.swift; sourceTree = "<group>"; };
+		BCF5F62C2C4A53D5002D9EA0 /* ChattingListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChattingListModel.swift; sourceTree = "<group>"; };
+		BCF5F62D2C4A53D5002D9EA0 /* ChattingListSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChattingListSection.swift; sourceTree = "<group>"; };
+		BCF5F62F2C4A53D5002D9EA0 /* ChattingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChattingListViewController.swift; sourceTree = "<group>"; };
+		BCF5F6302C4A53D5002D9EA0 /* ChattingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChattingView.swift; sourceTree = "<group>"; };
+		BCF5F6322C4A53D5002D9EA0 /* ChattingListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChattingListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				BCF5F6032C493D76002D9EA0 /* Base */,
+				BCF5F6342C4A53D5002D9EA0 /* ChattingList */,
 				BCF5F5FD2C493D12002D9EA0 /* Config */,
 				BCF5F5E92C493CB3002D9EA0 /* AppDelegate.swift */,
 				BCF5F5EB2C493CB3002D9EA0 /* SceneDelegate.swift */,
@@ -109,6 +122,7 @@
 		BCF5F6002C493D21002D9EA0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BCF5F61C2C4A4D80002D9EA0 /* ConfigModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -121,6 +135,42 @@
 				BCF5F6082C493F06002D9EA0 /* BaseViewModel.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		BCF5F62E2C4A53D5002D9EA0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCF5F62C2C4A53D5002D9EA0 /* ChattingListModel.swift */,
+				BCF5F62D2C4A53D5002D9EA0 /* ChattingListSection.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCF5F6312C4A53D5002D9EA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCF5F62F2C4A53D5002D9EA0 /* ChattingListViewController.swift */,
+				BCF5F6302C4A53D5002D9EA0 /* ChattingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCF5F6332C4A53D5002D9EA0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BCF5F6322C4A53D5002D9EA0 /* ChattingListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BCF5F6342C4A53D5002D9EA0 /* ChattingList */ = {
+			isa = PBXGroup;
+			children = (
+				BCF5F62E2C4A53D5002D9EA0 /* Model */,
+				BCF5F6312C4A53D5002D9EA0 /* View */,
+				BCF5F6332C4A53D5002D9EA0 /* ViewModel */,
+			);
+			path = ChattingList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,13 +251,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCF5F6362C4A53D5002D9EA0 /* ChattingListSection.swift in Sources */,
 				BCF5F6052C493D80002D9EA0 /* BaseViewController.swift in Sources */,
+				BCF5F61D2C4A4D80002D9EA0 /* ConfigModel.swift in Sources */,
 				BCF5F5EE2C493CB3002D9EA0 /* ConfigViewController.swift in Sources */,
+				BCF5F6372C4A53D5002D9EA0 /* ChattingListViewController.swift in Sources */,
+				BCF5F6352C4A53D5002D9EA0 /* ChattingListModel.swift in Sources */,
+				BCF5F6382C4A53D5002D9EA0 /* ChattingView.swift in Sources */,
 				BCF5F5EA2C493CB3002D9EA0 /* AppDelegate.swift in Sources */,
 				BCF5F6092C493F06002D9EA0 /* BaseViewModel.swift in Sources */,
 				BCF5F60B2C494249002D9EA0 /* ConfigView.swift in Sources */,
 				BCF5F6072C493D90002D9EA0 /* BaseView.swift in Sources */,
 				BCF5F6022C493D39002D9EA0 /* ConfigViewModel.swift in Sources */,
+				BCF5F6392C4A53D5002D9EA0 /* ChattingListViewModel.swift in Sources */,
 				BCF5F5EC2C493CB3002D9EA0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
